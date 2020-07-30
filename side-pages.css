@@ -1,0 +1,318 @@
+ .front_side {
+   clip-path: circle(70px at calc(100% - 70px) 70px);
+   animation: none;
+  }
+ .small-svg .path-2 {
+  animation :  neon-2 10s ease-in-out 0s !important;
+  animation-fill-mode: both !important;
+  animation-iteration-count: infinite !important;
+ }
+ .whowearewrapper h1 , .whowearewrapper p {
+   color: #1a001a;
+ }
+ .whoweare {
+   background-color: #fff;
+ }
+ .whoweare h4 {
+   margin: 35px 0;
+ }
+ .whowearewrapper img {
+   width: 100%;
+ }
+ /* cnotact us */
+ .contactwrapper h1 {
+   text-align: center;
+   color: #e74c3c;
+   font-family: 'Aref Ruqaa', serif;
+   font-size: calc(30px + 4vw);
+   margin: 50px 0 20px 0;
+ }
+ .contactwrapper h2 {
+   text-align: center;
+   font-size:calc(16px + 2vw);
+   font-family: 'Baloo Bhaijaan', cursive;
+ }
+ .line {
+   display: flex;
+   margin: 20px 0;
+ }
+ .line span {
+   display: inline-block;
+   background-color: #1a001a;
+   color: #fff;
+   height: 50px;
+   line-height: 50px;
+   width: 135px;
+   text-align: center;
+   position: relative;
+ }
+ .line span:before {
+   position: absolute;
+   content: "";
+   width: 20px;
+   height: 20px;
+   top: 50%;
+   left: 0;
+   background-color: #1a001a;
+   transform: translate(-50% , -50%) rotateZ(45deg);
+ }
+ .line input {
+   height: 50px;
+   width: calc(100% - 135px);
+   outline: none;
+   padding: 0;
+   margin: 0;
+   padding-right: 20px;
+   font-size: 20px;
+   font-weight: bold;
+   font-family: sans-serif;
+ }
+ .line4 {
+   display: flex;
+   justify-content: flex-end;
+ }
+ .line input[type="submit"]{
+   width: 100px;
+   background-color: #1a001a;
+   color: #fff;
+ }
+ .line:nth-child(3) input {
+   height: 200px;
+ }
+ .line i {
+   border-radius: 50%;
+   width: 45px;height: 45px;
+   background-color: #1a001a;
+   color: #fff;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-left: calc(10px + 1vw);
+   font-size: 25px;
+ }
+ .line5 {
+   font-size: calc(10px + 2vw);
+   font-weight: bolder;
+ }
+ /*website design page*/
+ .webdesignwrapper > img {
+   width: 50%;
+   margin: 0 auto;
+   display: block;
+ }
+ .webdesignwrapper h1 {
+   text-align: center;
+   color: #e74c3c;
+   font-family: 'Aref Ruqaa', serif;
+   font-size: calc(30px + 4vw);
+   margin: 50px 0 20px 0;
+ }
+ .sec {
+   margin: 50px 0 0 0;
+ }
+ .sectitle {
+   position: relative;
+   width: 200px;
+   margin: 20px;
+ }
+ .sec1 .sectitle , .sec3 .sectitle {
+   float: right;
+ }
+ .sec2 .sectitle , .sec4 .sectitle {
+   float: left;
+ }
+ .sectitle img {
+   width: 200px;
+   height: 200px;
+ }
+ .sectitle h2 {
+   position: absolute;
+   top: 100px;
+   left: 50%;
+   transform: translate(-50% , -50%);
+   color: #fff;
+ }
+ .sec p {
+   font-size: 35px;
+ }
+ .sec1 p , .sec3 p {
+   text-align: right;
+ }
+ .sec2 p , .sec4 p {
+   text-align: left;
+ }
+ /*web hosting*/
+ .packs {
+   display: flex;
+   flex-flow: row wrap;
+   justify-content: space-around;
+ }
+ .pack {
+   position: relative;
+   width: 300px;
+   background: linear-gradient(45deg , #1a001a ,#330033 );
+   margin: 50px 0 50px 20px;
+   color: #fff;
+   text-align: center;
+ }
+ .pack > * {
+   margin: 20px 0 20px 0;
+ }
+ .pack h1 {
+   color: #e74c3c;
+   font-family: 'Aref Ruqaa', serif;
+   font-size: 50px;
+   margin-bottom: 20px;
+ }
+ .pack h6 {
+   margin-top: 30px;
+ }
+ .pack h5 {
+   color: #e74c3c;
+   font-family: 'Aref Ruqaa', serif;
+ }
+ .pack button {
+   width: 180px;
+   height: 50px;
+   color: #e74c3c;
+   font-family: 'Aref Ruqaa', serif;
+   font-size: 30px;
+ }
+ .pack:before {
+   position: absolute;
+   top: -2px;left: -2px;right: -2px;bottom: -2px;
+   content: "";
+   background: linear-gradient(45deg , #d35400 , #e74c3c);
+   z-index: -1;
+   transform: skew(2deg , 2deg);
+ }
+ /* social media ads*/
+ .social-details {
+   display: flex;
+   flex-flow: row wrap;
+   justify-content: space-around;
+   margin-top: 50px;
+ }
+ .social-ideas {
+   width: 51%;
+   text-align: right;
+ }
+ .social-ideas h1 {
+   font-family: 'Lalezar-Regular', cursive;
+ }
+ .social-img {
+   width:48%;
+   display: flex;
+   align-items: center;
+ }
+ .social_pack {
+   width: 350px;
+ }
+
+ /* instagram ads */
+ .insta-head {
+   width:51%;
+ }
+ .insta-title {
+   font-family: 'Lalezar-Regular', cursive;
+   text-align: right;
+   font-size: 30px;
+   margin: 50px 0;
+ }
+ .insta-paragraph {
+   text-align: right;
+ }
+ .myfooter{
+   position: relative;
+ }
+ .footerwrapper svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+    transform: translate(0 , -99%);
+ }
+ @media only screen and (max-width:1150px){
+   .social-ideas {
+     width: 100%;
+   }
+   .social-img {
+     width:100%;
+   }
+   .social_pack {
+     width: 300px;
+   }
+   .insta-head {
+     width:100%;
+   }
+ }
+ @media only screen and (max-width:1024px){
+   .front_side {
+     position: fixed;
+     top: 0;
+     left:100%;
+     transform: translateX(-100%);
+     width: 100%;
+     border-radius:0;
+     height: 50px;
+     clip-path: circle(70.7% at 50% 50%);
+     z-index: 10000;
+     overflow: hidden;
+     background: linear-gradient(#4d004dff , #4d004d95);
+   }
+ }
+ @media only screen and (max-width:768px){
+   .wrapper {
+     width: 90%;
+   }
+ }
+ @media only screen and (max-width:425px){
+   .line {
+     width: 95%;
+     margin: 20px auto;
+   }
+   .line span {
+     width: 80px;
+     height: 35px;
+     line-height: 35px;
+     font-size: 9px;
+   }
+   .line input {
+     height: 35px;
+     width: calc(100% - 80px);
+   }
+   .line:nth-child(3) input{
+     height: 90px;
+   }
+   .line input[type="submit"]{
+     width: 70px;
+     height: 30px;
+     padding: 0;
+     font-size: 12px;
+     text-align: center;
+   }
+   .line i {
+     height: 25px;
+     width: 25px;
+     font-size: 15px;
+
+   }
+   .line5 {
+     margin: 20px auto;
+     width: 95%;
+   }
+   .webdesignwrapper > img {
+     width: 90%;
+   }
+   .sec .sectitle {
+     float: none;
+     margin: 0 auto;
+   }
+   .sec p {
+     text-align: center;
+   }
+   .social-ideas h1 {
+     font-size : 30px;
+   }
+ }

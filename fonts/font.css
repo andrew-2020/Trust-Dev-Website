@@ -1,0 +1,11 @@
+@font-face {
+  font-family: 'ReemKufi-Regular';
+  src: url('ReemKufi-Regular.eot');
+  src: url('ReemKufi-Regular.eot?#iefix') format('embedded-opentype'),
+       url('ReemKufi-Regular.svg#ReemKufi-Regular') format('svg'),
+       url('ReemKufi-Regular.woff') format('woff'),
+       url('ReemKufi-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
