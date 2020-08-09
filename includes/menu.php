@@ -36,9 +36,9 @@
                 C5.4,91.9,7.3,93.8,9.7,93.8z"/>
              </svg>
          </button>
-         <li class="item item-1 collapsed" onclick="collapse_me()" ><a href="contact-us.php"> اتصل بنا</a> </li>
-         <li class="item item-2 collapsed" onclick="collapse_me()" ><a href="video-motion.php"> فيديو موشن</a> </li>
-         <li class="item item-3 collapsed" onclick="collapse_me()" ><a href="web-hosting.php"> استضافة مواقع</a> </li>
+         <li class="item item-7 collapsed" onclick="collapse_me()" ><a href="index.php"> الرئيسية</a> </li>
+         <li class="item item-6 collapsed" onclick="collapse_me()" ><a href="about.php"> عن الشركة</a> </li>
+         <li class="item item-5 collapsed" onclick="collapse_me()" ><a href="web-design.php"> خدمة تصميم مواقع</a> </li>
          <li id="item4" class="item item-4 collapsed" ><a onclick="sub_expand_me(item4)"> تسويق الكترونى </a>
            <ul>
              <li class="subitem collapsed subitem1"><a href="social-media.php">باقة ادارة صفحات السوشيال ميديا</a></li>
@@ -48,9 +48,9 @@
              <li class="subitem collapsed subitem5"><a href="google-ads.php">اعلانات جوجل</a></li>
            </ul>
          </li>
-         <li class="item item-5 collapsed" onclick="collapse_me()" ><a href="web-design.php"> خدمة تصميم مواقع</a> </li>
-         <li class="item item-6 collapsed" onclick="collapse_me()" ><a href="about.php"> عن الشركة</a> </li>
-         <li class="item item-7 collapsed" onclick="collapse_me()" ><a href="index.php"> الرئيسية</a> </li>
+         <li class="item item-3 collapsed" onclick="collapse_me()" ><a href="web-hosting.php"> استضافة مواقع</a> </li>
+         <li class="item item-2 collapsed" onclick="collapse_me()" ><a href="video-motion.php"> فيديو موشن</a> </li>
+         <li class="item item-1 collapsed" onclick="collapse_me()" ><a href="contact-us.php"> اتصل بنا</a> </li>
        </ul>
      </div>
   </nav>

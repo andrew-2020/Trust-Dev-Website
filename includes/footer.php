@@ -10,9 +10,9 @@
      <div class="footerservices">
        <h1>خدماتنا</h1>
        <ul>
-         <li> <a href="web-design.html"> تصميم مواقع</a></li>
-         <li> <a href="#"> إستضافة مواقع</a></li>
-         <li> <a href="#"> إعلانات فيسبوك</a></li>
+         <li> <a href="web-design.php"> تصميم مواقع</a></li>
+         <li> <a href="web-hosting.php"> إستضافة مواقع</a></li>
+         <li> <a href="social-media.php"> إعلانات فيسبوك</a></li>
          <!-- <li> <a href="#"> إعلانات انستجرام</a></li>
          <li> <a href="#"> إعلانات جوجل</a></li>
          <li> <a href="#"> إعلانات يوتيوب</a></li>
@@ -22,9 +22,9 @@
      <div class="footerlinks">
        <h1>روابط سريعة</h1>
        <ul>
-         <li> <a href="index.html"> الرئيسية</a> </li>
-         <li> <a href="about.html"> عن الشركة</a> </li>
-         <li> <a href="contact-us.html"> اتصل بنا</a> </li>
+         <li> <a href="index.php"> الرئيسية</a> </li>
+         <li> <a href="about.php"> عن الشركة</a> </li>
+         <li> <a href="contact-us.php"> اتصل بنا</a> </li>
        </ul>
      </div>
      <div class="footerwhoweare">

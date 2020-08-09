@@ -24,12 +24,13 @@
    text-align: center;
    color: #e74c3c;
    font-family: 'Aref Ruqaa', serif;
-   font-size: calc(30px + 4vw);
+   font-size: 4rem;
    margin: 50px 0 20px 0;
+   padding: 0 2rem;
  }
  .contactwrapper h2 {
    text-align: center;
-   font-size:calc(16px + 2vw);
+   font-size: 3rem;
    font-family: 'Baloo Bhaijaan', cursive;
  }
  .line {
@@ -40,6 +41,8 @@
    display: inline-block;
    background-color: #1a001a;
    color: #fff;
+   font-size: 2rem;
+   font-family: sans-serif;
    height: 50px;
    line-height: 50px;
    width: 135px;
@@ -72,27 +75,21 @@
    justify-content: flex-end;
  }
  .line input[type="submit"]{
-   width: 100px;
+   width: 10rem;
+   font-size: 2rem;
    background-color: #1a001a;
    color: #fff;
  }
- .line:nth-child(3) input {
+ .line:nth-child(4) input {
    height: 200px;
  }
  .line i {
-   border-radius: 50%;
-   width: 45px;height: 45px;
-   background-color: #1a001a;
-   color: #fff;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   margin-left: calc(10px + 1vw);
-   font-size: 25px;
+   margin: auto 0 auto 2.5rem;
  }
  .line5 {
-   font-size: calc(10px + 2vw);
+   font-size: 2rem;
    font-weight: bolder;
+   font-family: sans-serif;
  }
  /*website design page*/
  .webdesignwrapper > img {
@@ -109,6 +106,7 @@
  }
  .sec {
    margin: 50px 0 0 0;
+   padding: 0px 10px;
  }
  .sectitle {
    position: relative;
@@ -131,9 +129,16 @@
    left: 50%;
    transform: translate(-50% , -50%);
    color: #fff;
+   font-size: 2rem;
+   display: block;
+   width: 100%;
+   text-align: center;
+   padding: 0px 10px;
  }
  .sec p {
-   font-size: 35px;
+   font-size: 2rem;
+   font-family: sans-serif;
+   padding-top: 3.25rem;
  }
  .sec1 p , .sec3 p {
    text-align: right;
@@ -154,29 +159,36 @@
    margin: 50px 0 50px 20px;
    color: #fff;
    text-align: center;
+   border-radius: 10px;
  }
- .pack > * {
+ .pack > * , .pack button {
    margin: 20px 0 20px 0;
  }
- .pack h1 {
+ .pack h1 , .pack h1 span {
    color: #e74c3c;
    font-family: 'Aref Ruqaa', serif;
-   font-size: 50px;
+   font-size: 3.9rem;
    margin-bottom: 20px;
  }
- .pack h6 {
+ .pack h6 , .pack h6 span {
    margin-top: 30px;
+   font-size: 1.7rem;
  }
- .pack h5 {
+
+ .pack h5 , .pack h5 span {
    color: #e74c3c;
    font-family: 'Aref Ruqaa', serif;
+   font-size: 2.5rem;
+ }
+ .pack h1:empty , .pack h6:empty , .pack h5:empty {
+   display: none;
  }
  .pack button {
    width: 180px;
-   height: 50px;
    color: #e74c3c;
    font-family: 'Aref Ruqaa', serif;
-   font-size: 30px;
+   font-size: 2rem;
+   cursor: pointer;
  }
  .pack:before {
    position: absolute;
@@ -185,6 +197,7 @@
    background: linear-gradient(45deg , #d35400 , #e74c3c);
    z-index: -1;
    transform: skew(2deg , 2deg);
+   border-radius: 10px;
  }
  /* social media ads*/
  .social-details {
@@ -196,28 +209,42 @@
  .social-ideas {
    width: 51%;
    text-align: right;
+   padding: 0px 20px;
  }
- .social-ideas h1 {
+
+ .social-ideas h1 , .packs > h1 , .insta-title {
    font-family: 'Lalezar-Regular', cursive;
+   font-size: 3rem;
+   color: #e74c3c;
+   letter-spacing: 3px;
+   font-weight: 300;
  }
  .social-img {
    width:48%;
    display: flex;
    align-items: center;
+   padding: 0px 20px;
  }
  .social_pack {
    width: 350px;
+   padding: 0px 10px;
+   display: flex;
+   flex-flow: column;
+   justify-content: space-around;
  }
-
+ /*motion graphocs*/
+ .motion-side {
+   margin-top: 6rem !important;
+   }
  /* instagram ads */
- .insta-head {
-   width:51%;
- }
  .insta-title {
    font-family: 'Lalezar-Regular', cursive;
-   text-align: right;
+   text-align: center;
    font-size: 30px;
    margin: 50px 0;
+ }
+ .insta-head {
+   padding: 0px 20px;
  }
  .insta-paragraph {
    text-align: right;
@@ -233,9 +260,16 @@
     z-index: 9999;
     transform: translate(0 , -99%);
  }
+/*social media ads*/
+ .social-ideas p , .insta-paragraph{
+   font-size: 2rem;
+   font-family: sans-serif;
+ }
+
  @media only screen and (max-width:1150px){
    .social-ideas {
      width: 100%;
+     margin-bottom: 3rem;
    }
    .social-img {
      width:100%;
@@ -245,6 +279,9 @@
    }
    .insta-head {
      width:100%;
+   }
+   .sec p {
+     font-size: 1.5rem;
    }
  }
  @media only screen and (max-width:1024px){
@@ -263,6 +300,12 @@
    }
  }
  @media only screen and (max-width:768px){
+   .pack h1 , .pack h1 span {
+     font-size: 5rem;
+   }
+   .pack h6 , .pack h6 span {
+     font-size: 2.3rem;
+   }
    .wrapper {
      width: 90%;
    }
@@ -276,27 +319,17 @@
      width: 80px;
      height: 35px;
      line-height: 35px;
-     font-size: 9px;
    }
    .line input {
      height: 35px;
      width: calc(100% - 80px);
    }
-   .line:nth-child(3) input{
+   .line:nth-child(4) input{
      height: 90px;
    }
    .line input[type="submit"]{
-     width: 70px;
-     height: 30px;
      padding: 0;
-     font-size: 12px;
      text-align: center;
-   }
-   .line i {
-     height: 25px;
-     width: 25px;
-     font-size: 15px;
-
    }
    .line5 {
      margin: 20px auto;
@@ -309,8 +342,12 @@
      float: none;
      margin: 0 auto;
    }
+   .sectitle h2 {
+     font-size: 3rem;
+   }
    .sec p {
      text-align: center;
+     font-size: 2.5rem;
    }
    .social-ideas h1 {
      font-size : 30px;

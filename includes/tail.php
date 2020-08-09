@@ -3,5 +3,6 @@
 <script defer src="js/jquery.themepunch.revolution.min.js"></script>
 <script defer src="js/script.min.js"></script>
 <script defer src="js/menu.min.js"></script>
+<script defer src="js/core.js"></script>
 </body>
 </html>
